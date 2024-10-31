@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Banner{
+    color: white;
+    width: 100%;
+    height: 70vh;
+    background:url(../img/banner.jpg) no-repeat top left;
+    background-size: cover;
+    margin-bottom: 2.5rem;
+}
+.ds-banner{
+    margin-top: 10vh;
+    margin-left: 10vw;
+    max-width:70%;
+
+    strong{
+        font-size: 3.5rem;
+    }
+    p{
+        margin-left: 2rem;
+    }
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    width: 60%;
+}
+#introducao{
+    margin: 2rem;
+    font-size: large;
+}

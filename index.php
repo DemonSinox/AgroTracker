@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agro Tracker</title>
 
-    <meta name="description" content="Navegação GPS/GNSS Avançada para Agricultura de Precisão">
-    <meta name="keywords" content="Agricultura, Produtividade, Precisão">
-
     <base href="http://localhost/agrotracker/">
+
+    <meta name="description" content="Navegação GPS/GNSS Avançada para Agricultura de Precisão">
+    <meta name="keywords" content="Agricultura, Produtividade & Precisão">
+
+    
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
 </head>
 
@@ -37,6 +40,7 @@
             </div>
         </nav>
     </header>
+    
     <main>  
         <?php 
         // Esse código permite que o sistema carregue diferentes páginas com base no parâmetro GET passado pela URL.
