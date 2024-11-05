@@ -1,40 +1,37 @@
-* {
-  padding: 0;
-  margin: 0; }
+/*
+Error: Invalid CSS after "#": expected "{", was ""
+        on line 110 of C:\xampp\htdocs\agrotracker\css\styles.scss
 
-.Banner {
-  color: white;
-  width: 100%;
-  height: 70vh;
-  background: url(../img/banner.jpg) no-repeat top left;
-  background-size: cover;
-  margin-bottom: 2.5rem; }
+105:     color: $cinza-claro;
+106:     padding: 1.5rem;
+107:     margin-bottom: 5vw;
+108:     font-size: large;
+109: }
+110: #
 
-.ds-banner {
-  margin-top: 10vh;
-  margin-left: 10vw;
-  max-width: 70%; }
-  .ds-banner strong {
-    font-size: 3.5rem; }
-  .ds-banner p {
-    margin-left: 2rem; }
-
-body {
-  width: 100%;
-  height: 100%; }
-
-main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; }
-
-.main {
-  display: flex;
-  width: 60%; }
-
-#introducao {
-  margin: 2rem;
-  font-size: large; }
-
-/*# sourceMappingURL=styles.css.map */
+Backtrace:
+C:\xampp\htdocs\agrotracker\css\styles.scss:110
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"#\": expected \"{\", was \"\"\A         on line 110 of C:\xampp\htdocs\agrotracker\css\styles.scss\A \A 105:     color: $cinza-claro;\A 106:     padding: 1.5rem;\A 107:     margin-bottom: 5vw;\A 108:     font-size: large;\A 109: }\A 110: #"; }

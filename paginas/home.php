@@ -1,29 +1,30 @@
 <div class="Banner">
-    
+
     <div class="ds-banner">
         <p>Agro Tracker</p>
         <strong>Agricultura de precisão avançada otimiza recursos e aumenta a eficiência com monitoramento e aplicação exata</strong>
         <h6>Navegação GPS/GNSS Avançada para Agricultura de Precisão</h6>
     </div>
-
+    <div class="numero">
+        <ul>
+            <p>Entre em contato</p>
+            <h1>+55 44 9823-9787</h1>
+        </ul>
+        <ul><a href="https://wa.me/554498239787" target="_blank" class="btn btn-success">
+                Conversar no WhatsApp
+            </a></ul>
+    </div>
 </div>
 <section class="main">
     <main>
         <section id="introducao">
+
             <p>O <strong>AgroTracker</strong> é um aplicativo de navegação GPS/GNSS inovador, desenvolvido especialmente
                 para otimizar o trabalho agrícola. Com foco em <strong>eficiência e economia de insumos</strong>, ele
                 proporciona precisão na aplicação de fertilizantes, pesticidas e outros recursos essenciais no campo.
                 Projetado para <strong>tratores e veículos agrícolas</strong>, o AgroTracker permite que agricultores
                 acompanhem o trajeto em tempo real, com linhas retas e espaçamento regular, resultando em <strong>maior
                     precisão, economia de tempo e redução de desperdício de insumos</strong>.</p>
-        </section>
-
-        <section id="requisitos">
-            <h3>Requisitos para o Melhor Desempenho</h3>
-            <p>Para garantir máxima precisão, recomendamos o uso de uma <strong>antena Bluetooth</strong> com o
-                AgroTracker, que aumenta a captação de sinal e oferece precisão de até <strong>11 cm</strong> (com
-                variação de erro entre <strong>9 e 15 cm</strong>). Esse recurso é fundamental para quem busca os
-                melhores resultados em eficiência e precisão no campo.</p>
         </section>
 
         <section id="beneficios">
@@ -84,4 +85,11 @@
             </ul>
         </section>
 
+        <section id="requisitos">
+            <h3>Requisitos</h3>
+            <p>O uso de uma <strong>antena Bluetooth</strong> com o
+                AgroTracker, que aumenta a captação de sinal e oferece precisão de até <strong>11 cm</strong> (com
+                variação de erro entre <strong>9 e 15 cm</strong>). Esse recurso é fundamental para quem busca os
+                melhores resultados em eficiência e precisão no campo.</p>
+        </section>
 </section>

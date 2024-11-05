@@ -11,8 +11,9 @@
     <meta name="description" content="Navegação GPS/GNSS Avançada para Agricultura de Precisão">
     <meta name="keywords" content="Agricultura, Produtividade & Precisão">
 
-    
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
@@ -21,7 +22,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
             <div class="container-fluid">
 
                 <a class="navbar-brand" href="./home"><h3>Agro Tracker</h3></a>
